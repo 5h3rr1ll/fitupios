@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92F4D65E27C68FC000583AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D65D27C68FC000583AA0 /* AppDelegate.swift */; };
+		92F4D66027C68FC000583AA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D65F27C68FC000583AA0 /* SceneDelegate.swift */; };
+		92F4D66227C68FC000583AA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D66127C68FC000583AA0 /* ViewController.swift */; };
+		92F4D66527C68FC000583AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F4D66327C68FC000583AA0 /* Main.storyboard */; };
+		92F4D66827C68FC000583AA0 /* fitupios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D66627C68FC000583AA0 /* fitupios.xcdatamodeld */; };
+		92F4D66A27C68FC200583AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F4D66927C68FC200583AA0 /* Assets.xcassets */; };
+		92F4D66D27C68FC200583AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F4D66B27C68FC200583AA0 /* LaunchScreen.storyboard */; };
+		92F4D67827C68FC200583AA0 /* fitupiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D67727C68FC200583AA0 /* fitupiosTests.swift */; };
+		92F4D68227C68FC200583AA0 /* fitupiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D68127C68FC200583AA0 /* fitupiosUITests.swift */; };
+		92F4D68427C68FC200583AA0 /* fitupiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D68327C68FC200583AA0 /* fitupiosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92F4D67427C68FC200583AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F4D65227C68FC000583AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F4D65927C68FC000583AA0;
+			remoteInfo = fitupios;
+		};
+		92F4D67E27C68FC200583AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F4D65227C68FC000583AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F4D65927C68FC000583AA0;
+			remoteInfo = fitupios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92F4D65A27C68FC000583AA0 /* fitupios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitupios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F4D65D27C68FC000583AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F4D65F27C68FC000583AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92F4D66127C68FC000583AA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92F4D66427C68FC000583AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F4D66727C68FC000583AA0 /* fitupios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fitupios.xcdatamodel; sourceTree = "<group>"; };
+		92F4D66927C68FC200583AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92F4D66C27C68FC200583AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92F4D66E27C68FC200583AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F4D67327C68FC200583AA0 /* fitupiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fitupiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F4D67727C68FC200583AA0 /* fitupiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitupiosTests.swift; sourceTree = "<group>"; };
+		92F4D67D27C68FC200583AA0 /* fitupiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fitupiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F4D68127C68FC200583AA0 /* fitupiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitupiosUITests.swift; sourceTree = "<group>"; };
+		92F4D68327C68FC200583AA0 /* fitupiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitupiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F4D65727C68FC000583AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4D67027C68FC200583AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4D67A27C68FC200583AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F4D65127C68FC000583AA0 = {
+			isa = PBXGroup;
+			children = (
+				92F4D65C27C68FC000583AA0 /* fitupios */,
+				92F4D67627C68FC200583AA0 /* fitupiosTests */,
+				92F4D68027C68FC200583AA0 /* fitupiosUITests */,
+				92F4D65B27C68FC000583AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F4D65B27C68FC000583AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F4D65A27C68FC000583AA0 /* fitupios.app */,
+				92F4D67327C68FC200583AA0 /* fitupiosTests.xctest */,
+				92F4D67D27C68FC200583AA0 /* fitupiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F4D65C27C68FC000583AA0 /* fitupios */ = {
+			isa = PBXGroup;
+			children = (
+				92F4D65D27C68FC000583AA0 /* AppDelegate.swift */,
+				92F4D65F27C68FC000583AA0 /* SceneDelegate.swift */,
+				92F4D66127C68FC000583AA0 /* ViewController.swift */,
+				92F4D66327C68FC000583AA0 /* Main.storyboard */,
+				92F4D66927C68FC200583AA0 /* Assets.xcassets */,
+				92F4D66B27C68FC200583AA0 /* LaunchScreen.storyboard */,
+				92F4D66E27C68FC200583AA0 /* Info.plist */,
+				92F4D66627C68FC000583AA0 /* fitupios.xcdatamodeld */,
+			);
+			path = fitupios;
+			sourceTree = "<group>";
+		};
+		92F4D67627C68FC200583AA0 /* fitupiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				92F4D67727C68FC200583AA0 /* fitupiosTests.swift */,
+			);
+			path = fitupiosTests;
+			sourceTree = "<group>";
+		};
+		92F4D68027C68FC200583AA0 /* fitupiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92F4D68127C68FC200583AA0 /* fitupiosUITests.swift */,
+				92F4D68327C68FC200583AA0 /* fitupiosUITestsLaunchTests.swift */,
+			);
+			path = fitupiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F4D65927C68FC000583AA0 /* fitupios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F4D68727C68FC200583AA0 /* Build configuration list for PBXNativeTarget "fitupios" */;
+			buildPhases = (
+				92F4D65627C68FC000583AA0 /* Sources */,
+				92F4D65727C68FC000583AA0 /* Frameworks */,
+				92F4D65827C68FC000583AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitupios;
+			productName = fitupios;
+			productReference = 92F4D65A27C68FC000583AA0 /* fitupios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92F4D67227C68FC200583AA0 /* fitupiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F4D68A27C68FC200583AA0 /* Build configuration list for PBXNativeTarget "fitupiosTests" */;
+			buildPhases = (
+				92F4D66F27C68FC200583AA0 /* Sources */,
+				92F4D67027C68FC200583AA0 /* Frameworks */,
+				92F4D67127C68FC200583AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F4D67527C68FC200583AA0 /* PBXTargetDependency */,
+			);
+			name = fitupiosTests;
+			productName = fitupiosTests;
+			productReference = 92F4D67327C68FC200583AA0 /* fitupiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92F4D67C27C68FC200583AA0 /* fitupiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F4D68D27C68FC200583AA0 /* Build configuration list for PBXNativeTarget "fitupiosUITests" */;
+			buildPhases = (
+				92F4D67927C68FC200583AA0 /* Sources */,
+				92F4D67A27C68FC200583AA0 /* Frameworks */,
+				92F4D67B27C68FC200583AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F4D67F27C68FC200583AA0 /* PBXTargetDependency */,
+			);
+			name = fitupiosUITests;
+			productName = fitupiosUITests;
+			productReference = 92F4D67D27C68FC200583AA0 /* fitupiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F4D65227C68FC000583AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					92F4D65927C68FC000583AA0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					92F4D67227C68FC200583AA0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 92F4D65927C68FC000583AA0;
+					};
+					92F4D67C27C68FC200583AA0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 92F4D65927C68FC000583AA0;
+					};
+				};
+			};
+			buildConfigurationList = 92F4D65527C68FC000583AA0 /* Build configuration list for PBXProject "fitupios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92F4D65127C68FC000583AA0;
+			productRefGroup = 92F4D65B27C68FC000583AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F4D65927C68FC000583AA0 /* fitupios */,
+				92F4D67227C68FC200583AA0 /* fitupiosTests */,
+				92F4D67C27C68FC200583AA0 /* fitupiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F4D65827C68FC000583AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F4D66D27C68FC200583AA0 /* LaunchScreen.storyboard in Resources */,
+				92F4D66A27C68FC200583AA0 /* Assets.xcassets in Resources */,
+				92F4D66527C68FC000583AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4D67127C68FC200583AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4D67B27C68FC200583AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F4D65627C68FC000583AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F4D66827C68FC000583AA0 /* fitupios.xcdatamodeld in Sources */,
+				92F4D66227C68FC000583AA0 /* ViewController.swift in Sources */,
+				92F4D65E27C68FC000583AA0 /* AppDelegate.swift in Sources */,
+				92F4D66027C68FC000583AA0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4D66F27C68FC200583AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F4D67827C68FC200583AA0 /* fitupiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F4D67927C68FC200583AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F4D68427C68FC200583AA0 /* fitupiosUITestsLaunchTests.swift in Sources */,
+				92F4D68227C68FC200583AA0 /* fitupiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F4D67527C68FC200583AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F4D65927C68FC000583AA0 /* fitupios */;
+			targetProxy = 92F4D67427C68FC200583AA0 /* PBXContainerItemProxy */;
+		};
+		92F4D67F27C68FC200583AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F4D65927C68FC000583AA0 /* fitupios */;
+			targetProxy = 92F4D67E27C68FC200583AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92F4D66327C68FC000583AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F4D66427C68FC000583AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92F4D66B27C68FC200583AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F4D66C27C68FC200583AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F4D68527C68FC200583AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92F4D68627C68FC200583AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F4D68827C68FC200583AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fitupios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.fitup.fitupios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92F4D68927C68FC200583AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fitupios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.fitup.fitupios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92F4D68B27C68FC200583AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.fitup.fitupiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fitupios.app/fitupios";
+			};
+			name = Debug;
+		};
+		92F4D68C27C68FC200583AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.fitup.fitupiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fitupios.app/fitupios";
+			};
+			name = Release;
+		};
+		92F4D68E27C68FC200583AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.fitup.fitupiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fitupios;
+			};
+			name = Debug;
+		};
+		92F4D68F27C68FC200583AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.fitup.fitupiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fitupios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F4D65527C68FC000583AA0 /* Build configuration list for PBXProject "fitupios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F4D68527C68FC200583AA0 /* Debug */,
+				92F4D68627C68FC200583AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F4D68727C68FC200583AA0 /* Build configuration list for PBXNativeTarget "fitupios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F4D68827C68FC200583AA0 /* Debug */,
+				92F4D68927C68FC200583AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F4D68A27C68FC200583AA0 /* Build configuration list for PBXNativeTarget "fitupiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F4D68B27C68FC200583AA0 /* Debug */,
+				92F4D68C27C68FC200583AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F4D68D27C68FC200583AA0 /* Build configuration list for PBXNativeTarget "fitupiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F4D68E27C68FC200583AA0 /* Debug */,
+				92F4D68F27C68FC200583AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92F4D66627C68FC000583AA0 /* fitupios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92F4D66727C68FC000583AA0 /* fitupios.xcdatamodel */,
+			);
+			currentVersion = 92F4D66727C68FC000583AA0 /* fitupios.xcdatamodel */;
+			path = fitupios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92F4D65227C68FC000583AA0 /* Project object */;
+}
