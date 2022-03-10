@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92E6A3D627DA42B500F9F7E5 /* MVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6A3D527DA42B500F9F7E5 /* MVP.swift */; };
 		92F4D65E27C68FC000583AA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D65D27C68FC000583AA0 /* AppDelegate.swift */; };
 		92F4D66027C68FC000583AA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D65F27C68FC000583AA0 /* SceneDelegate.swift */; };
 		92F4D66227C68FC000583AA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4D66127C68FC000583AA0 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92E6A3D527DA42B500F9F7E5 /* MVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP.swift; sourceTree = "<group>"; };
 		92F4D65A27C68FC000583AA0 /* fitupios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitupios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F4D65D27C68FC000583AA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92F4D65F27C68FC000583AA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				92F4D65D27C68FC000583AA0 /* AppDelegate.swift */,
+				92E6A3D527DA42B500F9F7E5 /* MVP.swift */,
 				92F4D65F27C68FC000583AA0 /* SceneDelegate.swift */,
 				92F4D66127C68FC000583AA0 /* ViewController.swift */,
 				92F4D66327C68FC000583AA0 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E6A3D627DA42B500F9F7E5 /* MVP.swift in Sources */,
 				92F4D66827C68FC000583AA0 /* fitupios.xcdatamodeld in Sources */,
 				92F4D66227C68FC000583AA0 /* ViewController.swift in Sources */,
 				92F4D65E27C68FC000583AA0 /* AppDelegate.swift in Sources */,
@@ -460,7 +464,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -488,7 +492,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
