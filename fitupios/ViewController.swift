@@ -6,12 +6,30 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let entity = NSEntityDescription.entity(forEntityName: "User", in: context)
+        
+        let newUser = NSManagedObject(entity: entity!, insertInto: context)
+        
+        newUser.setValue("jiGg4", forKey: "username")
+        newUser.setValue("Pass123", forKey: "password")
+        newUser.setValue(37, forKey: "age")
+        
+        do {
+            try context.save()
+        } catch {
+            print("Failed saving")
+        }
     }
     var alarmTime = Date()
     
